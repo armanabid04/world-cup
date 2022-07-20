@@ -6,9 +6,8 @@
    body{
     font-family: 'Poppins', sans-serif;
     background-color: white;
-  
-    border: 3px solid red;
     width: 1530px;
+    margin-bottom: 0;
    }
    main{
     width: 1250px;  
@@ -63,7 +62,7 @@
      -----------------------*/
 
    .top-banner .banner-img img{
-    width: 550px;
+    width: 650px;
     height: 640px;
    }
    /*------------------
@@ -142,4 +141,46 @@
     }
     .fa-comment{
       margin-right: 10px;
+    }
+
+    /* Footer common style */
+
+    .goal{
+      background-color: #161616;
+      height: 300px;
+    }
+    /* --------------------
+    Footer head and line style 
+    --------------------------*/
+    h3{
+      font-size: 30px;
+      font-weight: 700;
+      color: white;
+      text-align: center;
+      padding: 60px;
+      padding-bottom: 10px;
+    }
+    hr{
+      width: 1250px;
+    }
+    /* -----------------------
+    nav link style
+    --------------------------- */
+    .contact{
+      text-align: center;
+    }
+    nav a{
+      text-decoration: none;
+      color: aliceblue;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .social-link{
+      text-align: center;
+      
+    }
+    .social-link .fa-brands{
+      color: antiquewhite;
+      font-size: 25px;
+      margin: 30px;
     }
