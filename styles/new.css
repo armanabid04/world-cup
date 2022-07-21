@@ -189,7 +189,92 @@
     }
 
 
-    /* -------------------
-    Responcive section 
-    ----------------------*/
-   
+    @media only screen and (max-width:600px) {
+      /* main{
+        margin-left: 70px;
+        margin-right: 70px;
+      } */
+
+      /* Top-banner responsive style */
+
+      .top , h2 , .info p, .top-banner .banner-img img{
+        width: 100%;
+        height: auto;
+      }
+      .top{
+        padding: 0;
+        border-radius: 10px;
+      }
+      .info p{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 5px;
+      }
+      h2{
+        font-size: 30px;
+        font-weight: 200;
+      }
+      .top-banner{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        padding-bottom: 0;
+      }
+      .watch{
+        margin-bottom: 30px;
+      }
+     .banner-img img{
+        margin-bottom: 0;
+        padding-bottom:0px;
+      }
+      /* Middle-section responcive style */
+
+      .middle{
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      .middle-blogs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .side-bar{
+        background-color:white;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+      }
+      .blogs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 0;
+      }
+      .news{
+        width: 250px;
+      }
+      .news-heading{
+        padding: 15px;
+      }
+      footer{
+        width:100% ;
+      }
+      .goal{
+        height: fit-content;
+      }
+
+    h3{
+      padding: 20px;
+      padding-bottom: 0;
+    }
+    hr{
+      width: 80%;
+    }
+      nav a{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+      }
+     
+    }
