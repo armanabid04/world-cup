@@ -107,89 +107,78 @@
       margin-top: 10px;
       
     }
-    /* -----------------
-    Blogs design 
-    ---------------------*/
-    .blogs{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 25px;
-      padding-right: 0;
-      
+    /* --------------
+       Fixed Button color
+       -------------- */
+    .fixed{
+        background-color: red;
+        color: white;
+      }
+      /* ------------------
+      Grid-view section style 
+      -----------------------*/
+    .schedul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 25px;
+        padding-right: 0;
     }
-    .news{
-      border: 1px solid rgb(207, 214, 222);
-      border-radius: 10px;
-      
+    .games-schedul{
+        border: 1px solid rgb(207, 214, 222);
+        border-radius: 10px;
+        padding: 5px;
     }
-    .news-heading{
-      padding: 15px;
+    .flags{
+        display: flex;
     }
-    .news-heading .bar{
-      margin-top: 15px;
-      margin-bottom: 10px;
-     
+    .games{
+        padding: 7px;
     }
-    .news-heading p{
-      margin-top: 0px;
-      width: 220px;
+    .country{
+        text-align: center;
     }
-    .views{
-      display: flex;
-      justify-content: space-between;
-      padding: 15px;
+    .country .date{
+        font-size: 12px;
+        font-weight: 400;
     }
-     .fa-clock{
-      margin-right: 10px;
-    }
-    .fa-comment{
-      margin-right: 10px;
-    } 
+        /* Footer common style */
 
-    /* Footer common style */
-
-    .goal{
-      background-color: #161616;
-      height: 300px;
-    }
-    /* --------------------
-    Footer head and line style 
-    --------------------------*/
-    h3{
-      font-size: 30px;
-      font-weight: 700;
-      color: white;
-      text-align: center;
-      padding: 60px;
-      padding-bottom: 10px;
-    }
-    hr{
-      width: 1040px;
-    }
-    /* -----------------------
-    nav link style
-    --------------------------- */
-    .contact{
-      text-align: center;
-    }
-    nav a{
-      text-decoration: none;
-      color: aliceblue;
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-    .social-link{
-      text-align: center;
-      
-    }
-    .social-link .fa-brands{
-      color: antiquewhite;
-      font-size: 25px;
-      margin: 30px;
-    }
-
-
-    /* -------------------
-    Responcive section 
-    ----------------------*/
-   
+        .goal{
+            background-color: #161616;
+            height: 300px;
+          }
+          /* --------------------
+          Footer head and line style 
+          --------------------------*/
+          h3{
+            font-size: 30px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            padding: 60px;
+            padding-bottom: 10px;
+          }
+          hr{
+            width: 1040px;
+          }
+          /* -----------------------
+          nav link style
+          --------------------------- */
+          .contact{
+            text-align: center;
+          }
+          nav a{
+            text-decoration: none;
+            color: aliceblue;
+            padding-left: 30px;
+            padding-right: 30px;
+          }
+          .social-link{
+            text-align: center;
+            
+          }
+          .social-link .fa-brands{
+            color: antiquewhite;
+            font-size: 25px;
+            margin: 30px;
+          }
