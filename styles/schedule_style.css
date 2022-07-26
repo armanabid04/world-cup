@@ -60,6 +60,10 @@
     font-weight: 400;
     margin-top: 20px;
    }
+   .watch:hover{
+    background-color:darkorange;
+    cursor:pointer;
+   }
    /* ----------------------
        banner-image style 
      -----------------------*/
